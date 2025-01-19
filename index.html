@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio website of Dinar W. Rahman - Data Scientist and ML/AI Enthusiast">
+    <title>Dinar's Portfolio</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- Fixed relative path -->
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js" defer></script>
+  </head>
+  <body>   
+    <section>
+        <!-- MOBILE NAVIGATION -->
+        <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+            <a href="#home" class="w3-bar-item w3-button w3-hover-none">CURRICULUM VITAE</a>
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+        </div>
+        <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+            <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green">ABOUT</a>
+            <a href="#resume" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green">RESUME</a>
+            <a href="#projects" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green">PROJECTS</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green">CONTACT</a>
+        </div>
+
+        <!-- SOCIAL SECTION -->
+        <section class="image-section w3-quarter w3-fixed w3-padding-small">
+         <!--IMAGE/AVATAR-->
+            <img src="images\Foto_Dinar Wahyu Rahman.jpg" alt="Profile photo of Dinar Wahyu Rahman" class="w3-circle w3-border w3-border-sand profile-image"/>
+            <div class="links w3-margin-top w3-padding-small">
+            <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.instagram.com/je.suis_or" target="_blank" rel="noopener" aria-label="Instagram Profile">
+                <i data-feather="instagram"></i>
+            </a>
+            <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.github.com/dinarrahman30" target="_blank" rel="noopener" aria-label="GitHub Profile">
+               <i data-feather="github"></i>
+            </a>
+            <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/dinar-wahyu-rahman" target="_blank" rel="noopener" aria-label="LinkedIn Profile">
+               <i data-feather="linkedin"></i>
+            </a>
+          </div>
+          <div class="w3-container w3-padding-16">
+            <a href="./resume.pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download aria-label="Download CV">
+              <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+              <span class="w3-margin-left download-text">DOWNLOAD CV</span>
+            </a>
+          </div>
+     </section>
+        
+      <!--CV CONTENT SECTION-->
+        <section class="w3-threequarter w3-padding-large w3-right">
+            <!--DESKTOP NAVIGATION-->
+            <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small" style="position: flex;">
+                <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">CURRICULUM VITAE</a>
+                <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" style="display: flex; justify-content: space-between;">ABOUT</a>
+                <a href="#projects" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" style="display: flex; justify-content: space-between;">PROJECTS</a>
+                <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" style="display: flex; justify-content: space-between;">RESUME</a>
+                <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" style="display: flex; justify-content: space-between;">CONTACT</a>
+            </div>
+            <div class="content-container w3-margin-top-2">
+                <!-- HOME SECTION -->
+                <div id="home" class="w3-margin-top-2">
+                    <p class="w3-xxlarge w3-italic">"All izz well."</p>
+                    <h1>Dinar W. Rahman (23)</h1>
+                    <h2>Data Scientist and ML/AI Enthusiast</h2>
+                    <p></p>
+  
+                <!-- ABOUT SECTION -->
+                <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+                    <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
+                    <div class="w3-margin-top-2"> 
+                        <p>Hello! My name is Dinar, and I am a Data Scientist and AI Enthusiast!</p>
+                        <p>This is a collection of my personal projects made during my free time.</p>
+                    </div>
+                </div>
+                </div>
+    
+            <!-- PROJECT SECTION -->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+                    <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY PROJECT DETAILS</h3>
+                        <!-- Project 1 -->
+                        <section id="projects" class="projects-box">
+                            <div class="col-md-4">
+                                <div class="card project-card">
+                                <img src="https://cove-blog-id.sgp1.cdn.digitaloceanspaces.com/cove-blog-id/2021/12/jakarta-barat.webp" class="card-img-top" alt="Project 1">
+                                <div class="card-body">
+                                <h5 class="card-title">Recommender System - Indonesia Destination</h5>
+                                <p class="card-text">
+                                    This project involves building a recommend model for destinations using Python and machine learning algorithms.
+                                </p>
+                                <a href="https://github.com/dinarrahman30/Machine-Learning-Terapan/blob/main/Submission%202%20-%20Recommender%20System.md" class="btn btn-primary" target="_blank">View on GitHub</a>
+                                </div>
+                            </div>
+                </div>
+                    </section>
+                    <!-- Project 2 -->
+                    <section id="projects" class="projects-box">
+                    <div class="col-md-4">
+                        <div class="card project-card">
+                            <img src="images\Cuplikan layar 2025-01-18 145712.png" class="card-img-top" alt="Project 2">
+                            <div class="card-body">
+                                <h5 class="card-title">FinBot</h5>
+                                <p>
+                                    A web-based dashboard built with Dash Python to visualize.
+                                </p>
+                                <a href="https://github.com/dinarrahman30/FinBot" class="btn" target="_blank">View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    </section>
+                    <!-- Project 3 -->
+                    <section id="projects" class="projects-box">
+                        <div class="col-md-4">
+                            <div class="card project-card">
+                                <img src="images\test.png" class="card-img-top" alt="Project 3">
+                                <div class="card-body">
+                                <h5 class="card-title">TENAN</h5>
+                                <p>
+                                    Tenan is an accompanying application that helps you find information about tourism in Indonesia and also assists you in finding the nearest lodgings based on tourism location.</p>
+                                <p><strong> Bangkit Academy 2023 Capstone Team</strong></p>
+                                <a href="https://github.com/C23-PC620" class="btn btn-primary" target="_blank">View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    </section>
+                    <!-- Project 4 -->
+                    <section id="projects" class="projects-box">
+                    <div class="col-md-4">
+                        <div class="card project-card">
+                        <img src="https://media.cntraveler.com/photos/577fcc03e0b5a6244f4c789c/16:9/w_2560%2Cc_limit/BritishAirways-Boeing777-AlamyF1KW8J.jpg" class="card-img-top" alt="Project 4">
+                        <div class="card-body">
+                        <h5 class="card-title">Predictive Analysis - Customer Behavior</h5>
+                        <p>
+                            This project involves building a visualize and predictive analysis model for customer booking behavior using Python.
+                        </p>
+                        <a href="https://github.com/dinarrahman30/Machine-Learning-Terapan/blob/main/Submission%201%20-%20Predictive%20Analysis.md" class="btn btn-primary" target="_blank">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+        <!--RESUME-->
+        <div id="resume" class="w3-margin-top-2">
+        <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RESUME</h2>
+        <div class="w3-container w3-margin-top-2 w3-cursive">
+
+            <!---EDUCATION SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY EDUCATION</h3>
+                <h4>Bachelor of Science (Mathematics), Indonesia Open University (Universitas Terbuka), Jakarta ID</h4>
+                <p>September 2020 - Present</p>
+            </div>
+
+            <!--SKILLS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY SKILLS</h3>
+                <!-- Technical Skills -->
+                <div class="card bg-secondary text-white mb-4 shadow-lg">
+                <h4 class="card-title">Technical Skills</h4>
+                    <p>
+                        Expertise in <strong>Python</strong>, <strong>SQL</strong>, and more.
+                    </p>
+                    <ul>
+                        <li>Machine Learning (Neural Networks, NLP, Clustering)</li>
+                        <li>ETL, MLOps, Pipeline Optimization</li>
+                    </ul>
+                </div>
+ 
+                <!-- ML Libraries -->
+                <div class="card bg-secondary text-white mb-4 shadow-lg">
+                <h4 class="card-title">ML Libraries & Frameworks</h4>
+                    <p>
+                        Mastery of modern ML frameworks like <strong>TensorFlow</strong>, 
+                        <strong>Keras</strong>, and <strong>scikit-learn</strong>.
+                    </p>
+                    <ul>
+                        <li>HuggingFace, Transformers, SpaCy</li>
+                        <li>Pandas, NumPy, Seaborn, matplotlib</li>
+                        <li>Streamlit, Django, Flask, FastAPI, BeautifulSoup</li>
+                    </ul>
+                </div>
+        
+                <!-- Soft Skills -->
+                <div class="col-md-6">
+                    <div class="card bg-secondary text-white mb-4 shadow-lg">
+                        <h4 class="card-title">Soft Skills</h4>
+                        <ul>
+                            <li>Critical Thinking & Problem-Solving</li>
+                            <li>Time Management & Storytelling</li>
+                            <li>High Creativity & Abstraction</li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <!-- Certifications & Languages -->
+                <div class="col-md-6">
+                    <div class="card bg-secondary text-white mb-4 shadow-lg">
+                        <h4 class="card-title">Certifications & Languages</h4>
+                        <p class="card-text">
+                        <a href="https://www.credential.net/485fe615-5cde-4647-8cac-51016bbdc4e6#acc.k9H3FmNl" target="_blank"><strong>TensorFlow Developer Certificate</strong></a>
+                        </p>
+                        <ul>
+                            <li>Intermediate in English (A2)</li>
+                            <li>Native in Indonesia</li>
+                        </ul>
+                    </div>
+                </div>
+
+            <!--INTERESTS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+                <h3 class="w3-border-amber">MY HOBBIES AND INTERESTS</h3>
+                    <ul class="w3-ul" style="font-weight: 500;">
+                        <li>Coding, build anothe project</li>
+                        <li>Listening to music</li>
+                    </ul>
+            </div>
+        </div> 
+          <!--CONTACT SECTION-->
+          <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY CONTACT DETAILS</h3>
+                <div class="w3-margin-top-2" style="font-weight: 500;">
+                    <p>Name: Dinar W. Rahman</p>
+                    <p>Adress: Darma Wanita IV Street No 84, 11740, West Jakarta, Jakarta, ID</p>
+                    <p>E-mail: dinarrahman30@email.com</p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!--FOOTER-->
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+          <p>© 2025 - Dinar Rahman</p>
+        <!-- End footer -->
+        </footer>
+
+            <!--END OF CV SECTION-->
+    </section>      
+    <script>
+        function toggleNavigation() {
+          const nav = document.getElementById("mobile-nav");
+          nav.classList.toggle('w3-show');
+        }
+  
+        document.addEventListener('DOMContentLoaded', function() {
+          feather.replace();
+        });
+      </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+  </body>
+</html>
